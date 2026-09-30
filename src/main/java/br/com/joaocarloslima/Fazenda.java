@@ -36,5 +36,9 @@ public class Fazenda {
 
     public void plantarCenoura(int x, int y){
         Terreno t = getTerreno(x, y);
+        if(t != null){
+            celeiro.consumirBatata();
+            t.plantar(new Cenoura(4));
+        }
     }
 }
