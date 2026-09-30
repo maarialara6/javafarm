@@ -1,11 +1,11 @@
 package br.com.joaocarloslima;
 
-public class Batata {
+public class Morango {
     private int tamanho;
     private int tempoDeVida;
     private int tempoDeCrescimento;
 
-    public Batata(int tempoDeVida){
+    public Morango(int tempoDeVida){
         this.tamanho = 1;
         this.tempoDeVida = 1;
         this.tempoDeCrescimento = tempoDeVida;
@@ -25,7 +25,7 @@ public class Batata {
     }
 
     public String getImagem(){
-        return "images/batata" + tamanho + ".png";
+        return "images/morango" + tamanho + ".png";
     }
 
     public int getTamanho(){return tamanho;}
